@@ -5,7 +5,9 @@ import org.apache.camel.Message;
 import org.apache.camel.Processor;
 
 /**
- * 
+ * This class doesn't do anything in POC. But is here to demonstrate how to trap
+ * exchange during transport and possibilities of what could be done with
+ * exchange
  */
 public class DebugProcessor implements Processor {
 
